@@ -1,0 +1,601 @@
+@font-face {
+    font-family: 'Monad';
+    src: url('assets/fonts/MonadRegular.eot');
+    src: url('assets/fonts/MonadRegular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/MonadRegular.woff2') format('woff2'),
+        url('assets/fonts/MonadRegular.woff') format('woff'),
+        url('assets/fonts/MonadRegular.ttf') format('truetype'),
+        url('assets/fonts/MonadRegular.svg#MonadRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    font-family: 'comfortaa'
+}
+
+a{
+    font-family:'comfortaa'
+}
+
+body{
+    background-image: url(../images/background-accueil-mobile.jpg);
+    background-repeat: no-repeat;
+    background-color: #99682e;
+    background-size: 100%;
+}
+
+
+p{
+    font-family: 'comfortaa';
+    font-size: 14px;
+}
+
+#plugins{
+    position: fixed;
+    z-index: 10;
+    margin-top: 500px;
+    background-color: rgba(37,165,180,0);
+    border: solid 0px white;
+    font-size: 18px;
+    color: white;
+}
+
+#popup-acces i{
+    color: black;
+}
+
+#popup-acces p{
+    color: black;
+}
+
+#popup-acces i{
+    color: black;
+}
+
+#popup-acces{
+    background-color: lightgray;
+    border: solid 2px #25a5b4;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#header-background{
+    background-color: white;
+}
+
+#logo{
+    width: 100px;
+    height: 71px;
+    background-image: url(../images/Logo-Couleur.png);
+}
+
+.reseau-header i{
+    font-size: 50px;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+}
+
+#langues{
+    color: black;
+}
+
+.reseau-header{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+
+}
+
+.facebook{
+    color: #4268b3;
+}
+
+.twitter{
+    color: #229ef4;
+}
+
+.linkedin{
+    color: #0177b5;
+}
+
+.instagram{
+    background-image: url(../images/instagram-mobile.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+.bouton-espace-membre-mobile{
+    font-size: 50px;
+    color: rgba(37,165,180);
+}
+
+.bouton-espace-membre{
+    transition: 0.5s;
+    color:white;
+    background-color:rgba(37,165,180,0.5);
+    border:solid 2px white;
+    border-radius:5px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    display: none;
+}
+
+.bouton-espace-membre:hover{
+    background-color:rgba(37,165,180);
+
+}
+
+#bouton-reserver{
+    color:white;
+    background-color:rgba(37,165,180,0.5);
+    border:solid 2px white;
+    border-radius:5px;
+    text-align: center;
+    width: 245px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#bouton-reserver a{
+    color: white;
+    text-decoration: none;
+}
+
+#bouton-reserver:hover{
+    transition: 0.5s;
+    background-color:rgba(37,165,180);
+
+
+}
+
+.boutons-accueil a{
+    color:white;
+    text-decoration:none;
+}
+
+
+/*.bg-light{
+background-color: rgba(0,0,0,0)!important;
+}*/
+
+#menu-principal{
+    margin:0 auto;
+    background-color: white!important;
+    text-align: center;
+}
+
+#menu-principal button{
+    margin:0 auto;
+    height: 50px;
+    width: 70px;
+}
+
+.navbar-toggler-icon{
+
+}
+
+.nav-link{
+    color: white;
+}
+
+#menu-principal a{
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    background-color:lightgrey;
+    border: solid 2px white;
+
+}
+
+#langue.dropdown-toggle::after{
+    display: none;
+}
+
+
+#icon-recherche{
+    font-size: 18px;
+}
+
+#input-recherche{
+    width: 80%;
+}
+
+.recherche{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#bouton-rechercher{
+    width: 20%;
+}
+
+.fa-search{
+    font-size: 18px;
+}
+
+.btn{
+    background-color: rgba(37,165,180,0.4);
+    border: solid 2px white;
+    font-size: 18px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgba(37,165,180);
+    border: solid 2px white;
+}
+
+#logo-grand{
+    display: none;
+}
+
+#baseline{
+    color: white;
+    display: none;
+}
+
+#section-promotions{
+    background-color: #155e67;
+}
+
+.icons-promotion{
+    width: 70px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+.js-scrollTo{
+    display: none;
+}
+
+.background-graine-cafe{
+    background-image: url(../images/graine-cafe-header.png);
+    height: 200px;
+}
+
+#section1{
+    background-image: url(../images/background-section-1.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+article{
+    padding: 30px;
+    max-width: 550px;
+
+}
+
+#article1{
+    background-color: white;
+    margin: -15px;
+    box-sizing: content-box;
+    box-shadow: 0px 1px 5px black;
+}
+
+#article1 p{
+    color: black;
+    text-align: justify;
+}
+
+h2{
+    font-family: 'Monad';
+    color: #844712;
+}
+
+hr{
+    background-color: #844712;
+    height: 1px;
+
+}
+
+.fond-blanc{
+    background-color: white;
+}
+
+#section2-mobile{
+    background-color: white;
+}
+
+#section2{
+    background-image: url(../images/background-section-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+#article2{
+    text-align: right;
+}
+
+#article2 p{
+    text-align:right;
+    color: black;
+
+}
+
+.avis{
+    text-align: justify;
+}
+
+#footer{
+    background-color: #155e67;
+    background-image: url(../images/graine-cafe-footer.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+
+
+}
+
+#bouton-contraste{
+    color:white;
+    background-color:rgba(37,165,180,0.4);
+    border:solid 2px white;
+    border-radius:30px;
+    text-align: center;
+    width: 245px;
+    height: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#bouton-contraste:hover{
+    background-color:rgba(37,165,180);
+}
+
+#typo-accessibilite{
+    text-align: center;
+}
+
+#contact p{
+    font-size: 14px;
+    text-align: right;
+
+}
+
+footer a{
+    color: white;
+
+}
+
+footer a:hover{
+    color: white;
+}
+
+ul{
+    list-style: none;
+
+}
+
+ul li{
+    color: white;
+}
+
+.bloc-droite{
+    justify-content: flex-end;
+}
+
+
+.typo-gros:hover{
+    font-size: 35px;
+    transition: 0.2s;
+}
+
+.container{
+    background-color:rgba(0,0,0,0);
+}
+
+.reseau-blanc{
+    color: white;
+    font-size: 45px;
+}
+
+.instagram{
+    background-image: url(../images/instagram-mobile.png);
+    background-repeat: no-repeat;
+    width: 50px;
+    height: 50px;
+
+}
+
+
+
+
+
+
+
+
+
+/*-----------------------MEDIA QUERIES----------------------*/
+
+@media screen and (min-width: 576px){
+    #input-recherche{
+        width: 75%;
+    }
+
+    #bouton-rechercher{
+        width: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+
+    body{
+        background-image: url(../images/background-accueil.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    #header-background{
+        background-color: rgba(0,0,0,0);
+    }
+
+    #logo{
+        width: 50px;
+        height: 40px;
+        background-image: url(../images/logo-gc.png);
+    }
+
+    .facebook{
+        color: white;
+    }
+
+    .twitter{
+        color: white;
+    }
+
+    .linkedin{
+        color: white;
+    }
+
+    .instagram{
+        background-image: url(../images/instagram-blanc.png);
+        background-repeat: no-repeat;
+        width: 50px;
+        height: 50px;
+
+    }
+
+    .facebook:hover{
+        color: #4268b3;
+    }
+
+    .twitter:hover{
+        color: #229ef4;
+    }
+
+    .linkedin:hover{
+        color: #0177b5;
+    }
+
+    .instagram:hover{
+        background-image: url(../images/instagram-mobile.png);
+    }
+
+    #menu-principal{
+        background-color: rgba(0,0,0,0)!important;
+    }
+
+    #menu-principal a{
+        color: white;
+    }
+
+    #baseline{
+        color: white;
+        display: block;
+    }
+
+    #logo-grand{
+        width: 250px;
+        display: block;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(37,165,180,0.4);
+        border: solid 2px white;
+
+    }
+
+    .dropdown-item:hover {
+        background-color: rgba(37,165,180);
+    }
+
+
+    #langues{
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+
+    #section-promotions{
+        background-color: rgba(0,0,0,0);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .bouton-espace-membre-mobile{
+        display: none;
+    }
+
+    .bouton-espace-membre{
+        display: block;
+    }
+
+    #section3{
+        max-width: 1200px;
+    }
+
+    footer{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1900px){
+    #section-promotions{
+        background-color: rgba(0,0,0,0);
+    }
+
+    .js-scrollTo{
+        display: block;
+    }
+}

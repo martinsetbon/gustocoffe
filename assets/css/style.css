@@ -1,0 +1,773 @@
+@font-face {
+    font-family: 'Monad';
+    src: url('assets/fonts/MonadRegular.eot');
+    src: url('assets/fonts/MonadRegular.eot?#iefix') format('embedded-opentype'),
+        url('assets/fonts/MonadRegular.woff2') format('woff2'),
+        url('assets/fonts/MonadRegular.woff') format('woff'),
+        url('assets/fonts/MonadRegular.ttf') format('truetype'),
+        url('assets/fonts/MonadRegular.svg#MonadRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html{
+    font-family: 'comfortaa'
+}
+
+a{
+    font-family:'comfortaa'
+}
+
+body{
+  background-image: url(../images/background-accueil.jpg);
+    background-repeat: no-repeat;
+    background-color: #99682e;
+    background-size: 100%;
+}
+
+
+p{
+    font-family: 'comfortaa';
+    font-size: 14px;
+}
+
+.contenu-max-1200{
+    max-width: 1200px;
+}
+
+#plugins{
+    position: fixed;
+    z-index: 10;
+    margin-top: 500px;
+    background-color: rgba(37,165,180,0);
+    border: solid 0px white;
+    font-size: 18px;
+    color: white;
+}
+
+#popup-acces i{
+    color: black;
+}
+
+#popup-acces p{
+    color: black;
+}
+
+#popup-acces i{
+    color: black;
+}
+
+#popup-acces{
+    background-color: lightgray;
+    border: solid 2px #25a5b4;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+#header-background{
+    background-color: white;
+}
+
+#logo{
+    width: 80px;
+    height: 57px;
+    background-image: url(../images/Logo-Couleur.png);
+}
+
+.reseau-header i{
+    font-size: 50px;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+}
+
+#langues{
+    color: black;
+}
+
+.reseau-header{
+    justify-content: center;
+    display: flex;
+    justify-content: space-around;
+    max-width: 400px;
+
+}
+
+.facebook{
+    color: #4268b3;
+}
+
+.twitter{
+    color: #229ef4;
+}
+
+.linkedin{
+    color: #0177b5;
+}
+
+
+.bouton-espace-membre-mobile{
+    font-size: 100px;
+    color: rgba(37,165,180);
+}
+
+.bouton-espace-membre{
+    transition: 0.5s;
+    color:white;
+    background-color:rgba(37,165,180,0.5);
+    border:solid 2px white;
+    border-radius:5px;
+    text-align: center;
+    width: 200px;
+    height: 50px;
+    font-weight: bold;
+    display: none;
+}
+
+.bouton-espace-membre:hover{
+    background-color:rgba(37,165,180);
+
+}
+
+#bouton-reserver{
+    color:white;
+    background-color:rgba(37,165,180,0.5);
+    border:solid 2px white;
+    border-radius:5px;
+    text-align: center;
+    width: 245px;
+    height: 50px;
+    font-weight: bold;
+}
+
+#bouton-reserver a{
+    color: white;
+    text-decoration: none;
+}
+
+#bouton-reserver:hover{
+    transition: 0.5s;
+    background-color:rgba(37,165,180);
+
+
+}
+
+.boutons-accueil a{
+    color:white;
+    text-decoration:none;
+}
+
+
+/*.bg-light{
+background-color: rgba(0,0,0,0)!important;
+}*/
+
+#menu-principal{
+    margin:0 auto;
+    background-color: white!important;
+    text-align: center;
+}
+
+#menu-principal button{
+    margin:0 auto;
+    height: 50px;
+    width: 70px;
+}
+
+.navbar-toggler-icon{
+
+}
+
+.nav-link{
+    color: white;
+}
+
+#menu-principal a{
+    font-size: 18px;
+}
+
+.dropdown-menu {
+    background-color:lightgrey;
+    border: solid 2px white;
+
+}
+
+#langue.dropdown-toggle::after{
+    display: none;
+}
+
+
+#icon-recherche{
+    font-size: 18px;
+}
+
+#input-recherche{
+    width: 80%;
+}
+
+.recherche{
+    width: 300px;
+    margin: 0 auto;
+}
+
+#bouton-rechercher{
+    width: 20%;
+}
+
+.fa-search{
+    font-size: 18px;
+}
+
+.btn{
+    background-color: rgba(37,165,180,0.4);
+    border: solid 2px white;
+    font-size: 18px;
+    color: white;
+}
+
+.btn:hover{
+    background-color: rgba(37,165,180);
+    border: solid 2px white;
+}
+
+#logo-grand{
+    display: none;
+}
+
+#baseline{
+    color: white;
+    display: none;
+}
+
+#section-promotions{
+    background-color: #155e67;
+}
+
+.icons-promotion{
+    width: 70px;
+}
+
+p{
+    color: white;
+    font-size: 18px;
+}
+
+.js-scrollTo{
+    display: none;
+}
+
+.background-graine-cafe{
+    background-image: url(../images/graine-cafe-header.png);
+    height: 200px;
+}
+
+#section1{
+    background-image: url(../images/background-section-1.jpg);
+    background-attachment: fixed;
+    background-position: top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 300px;
+}
+
+article{
+    padding: 30px;
+    max-width: 550px;
+
+}
+
+#article1{
+    background-color: white;
+    margin: -15px;
+    box-sizing: content-box;
+    box-shadow: 0px 1px 5px black;
+}
+
+#article1 p{
+    color: black;
+    text-align: justify;
+}
+
+h1{
+    font-family: 'Monad';
+    color: white;
+    font-size: 22px;
+}
+
+h2{
+    font-family: 'Monad';
+    color: white;
+    font-size: 20px;
+}
+
+h3{
+    font-family: 'Monad';
+    color: white;
+    font-size: 18px;
+    margin-top: 40px;
+}
+
+
+hr{
+    background-color: white;
+    height: 1px;
+    width: 75%;
+
+}
+
+.fond-blanc{
+    background-color: white;
+}
+
+#section2-mobile{
+    background-color: white;
+}
+
+#section2{
+    background-image: url(../images/background-section-2.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-top: 100px;
+}
+
+#article2{
+    text-align: right;
+}
+
+#article2 p{
+    text-align:right;
+    color: black;
+
+}
+
+.avis{
+    text-align: justify;
+}
+
+#footer{
+    background-color: #155e67;
+    background-image: url(../images/graine-cafe-footer.png);
+    background-position: bottom;
+    background-repeat: no-repeat;
+    margin-top: 30px;
+    text-align: left;
+
+
+}
+
+#bouton-contraste{
+    color:white;
+    background-color:rgba(37,165,180,0.4);
+    border:solid 2px white;
+    border-radius:30px;
+    text-align: center;
+    width: 245px;
+    height: 50px;
+    font-weight: bold;
+    transition: 0.5s;
+}
+
+#bouton-contraste:hover{
+    background-color:rgba(37,165,180);
+}
+
+#typo-accessibilite{
+    text-align: center;
+}
+
+#contact p{
+    font-size: 14px;
+    text-align: right;
+
+}
+
+footer a{
+    color: white;
+
+}
+
+footer a:hover{
+    color: white;
+}
+
+ul{
+    list-style: none;
+
+}
+
+ul li{
+    color: white;
+}
+
+.bloc-droite{
+    justify-content: flex-end;
+}
+
+
+.typo-gros:hover{
+    font-size: 35px;
+    transition: 0.2s;
+}
+
+.container{
+    background-color:rgba(0,0,0,0);
+}
+
+.reseau-blanc{
+    color: white;
+    font-size: 45px;
+}
+
+.instagram{
+    color: orange;
+
+}
+
+
+
+
+
+/*------------------------------------------------MEDIA QUERIES----------------------------------------*/
+
+@media screen and (min-width: 576px){
+    #input-recherche{
+        width: 75%;
+    }
+
+    #bouton-rechercher{
+        width: 20%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px){
+
+
+    #header-background{
+        background-color: #155e67;
+    }
+
+    #logo{
+        background-image: url(../images/logo-gc.png);
+    }
+
+    .facebook{
+        color: white;
+    }
+
+    .twitter{
+        color: white;
+    }
+
+    .linkedin{
+        color: white;
+    }
+
+    .instagram{
+        color: white;
+
+    }
+
+    .instagram:hover{
+        color: orange;
+
+    }
+
+    .facebook:hover{
+        color: #4268b3;
+    }
+
+    .twitter:hover{
+        color: #229ef4;
+    }
+
+    .linkedin:hover{
+        color: #0177b5;
+    }
+
+    .instagram:hover{
+        color: orange;
+    }
+
+    #menu-principal{
+        background-color: rgba(0,0,0,0)!important;
+    }
+
+    #menu-principal a{
+        color: white;
+    }
+
+    #baseline{
+        color: white;
+        display: block;
+    }
+
+    #logo-grand{
+        width: 250px;
+        display: block;
+    }
+
+    .dropdown-menu {
+        background-color: rgba(37,165,180,0.4);
+        border: solid 2px white;
+
+    }
+
+    .dropdown-item:hover {
+        background-color: rgba(37,165,180);
+    }
+
+
+    #langues{
+        color: white;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1200px){
+
+    #section-promotions{
+        background-color: rgba(0,0,0,0);
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .bouton-espace-membre-mobile{
+        display: none;
+    }
+
+    .bouton-espace-membre{
+        display: block;
+    }
+
+    #section3{
+        max-width: 1200px;
+    }
+
+    footer{
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 1900px){
+    #section-promotions{
+        background-color: rgba(0,0,0,0);
+    }
+
+    .js-scrollTo{
+        display: block;
+    }
+}
+
+
+
+/*-------------------------------------------------------------PAGE ESPACES-------------------------------------------------------------------------*/
+
+
+
+
+
+.description-open-space{
+    background-color: #e2e2e2;
+    padding: 15px;
+    width: 100%;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.description-open-space p{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.description-espace{
+    background-color: #e2e2e2;
+    padding: 15px;
+    width: 320px;
+    margin: 0 auto;
+}
+
+.description-espace p{
+    color: black;
+    font-size: 14px;
+    text-align: center;
+}
+
+.bouton-savoir-plus{
+    transition: all 0.5s;
+    background-color: #155e67;
+    width: 320px;
+    height: 50px;
+    border: solid 0px white;
+    vertical-align: middle;
+}
+
+.bouton-savoir-plus:hover{
+    background-color: #25a5b4;
+
+}
+
+
+.bouton-savoir-plus-open-space a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.bouton-savoir-plus-open-space{
+    transition: 0.5s;
+    background-color: #25a5b4;
+    border-radius: 50px;
+    width: 100%;
+    max-width: 320px;
+    height: 50px;
+    border: solid 2px #155e67;
+    vertical-align: middle;
+}
+
+.bouton-savoir-plus-open-space i{
+    color: white;
+    font-size: 20px;
+}
+
+.bouton-savoir-plus-open-space:hover{
+    background-color: #155e67;
+}
+
+
+.bouton-savoir-plus a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+.bouton-savoir-plus i{
+    color: white;
+    font-size: 20px;
+}
+
+.titre-salle{
+    background-color: #155e67;
+    width: 320px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    color: white;
+    margin: 0 auto;
+}
+
+.titre-salle span{
+    font-family: 'monad';
+}
+
+.salle{
+    margin-top: 30px;
+}
+
+
+
+
+
+
+
+
+
+/*--------------------------------------------------PAGE PRODUIT-------------------------------------------*/
+
+
+
+.fond-bleu{
+    background-color: #155e67
+}
+.photo-espace-detail{
+    border: solid 2px #155e67;
+}
+
+
+.description-detail{
+    background-color: white;
+    padding: 15px;
+}
+
+.description-detail p{
+    color: black;
+
+}
+
+.bouton-reserver{
+    width: 200px;
+    height: 50px;
+    background-color: #155e67;
+    border-radius: 5px;
+    border: solid 0px;
+    margin: 0 auto;
+    transition: all 0.5s;
+    border: solid 1px white;
+}
+
+.bouton-reserver a{
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+}
+
+.bouton-reserver i{
+    font-size: 22px;
+}
+
+.bouton-reserver:hover{
+    background-color: #25a5b4;
+}
+
+@media screen and (min-width: 768px){
+
+    .description-detail{
+        background-color: rgba(0,0,0,0);
+    }
+    .description-detail p{
+        color: white;
+    }
+}

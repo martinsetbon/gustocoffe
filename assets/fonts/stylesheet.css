@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Monad';
+    src: url('MonadRegular.eot');
+    src: url('MonadRegular.eot?#iefix') format('embedded-opentype'),
+        url('MonadRegular.woff2') format('woff2'),
+        url('MonadRegular.woff') format('woff'),
+        url('MonadRegular.ttf') format('truetype'),
+        url('MonadRegular.svg#MonadRegular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
